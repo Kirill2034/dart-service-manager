@@ -1,0 +1,74 @@
+.Elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1460px;
+    margin-top: 100px;
+}
+
+.Text {
+    width: 100%;
+    max-width: 580px;
+    color: #ffffff;
+}
+
+.Text p:first-child {
+    font-family: "Raleway - Extra Bold";
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Text p:last-child {
+    font-family: "Raleway - Extra Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.Btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 340px;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.Buy__now {
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    max-height: 55px;
+    color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #061e37;
+    cursor: pointer;
+    font-weight: 400;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.Try__for__free {
+    width: 100%;
+    max-width: 160px;
+    height: 100%;
+    max-height: 55px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #fff;
+    color: #061e37;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

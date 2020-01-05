@@ -20,7 +20,7 @@ function Menu(props) {
                 <p>Help</p>
             </div>
             <div className={classes.Signup}>
-                <p>sign up</p>
+                sign up
             </div>
         </div>
     )

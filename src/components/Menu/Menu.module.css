@@ -48,6 +48,7 @@
 .Navbar p:hover {
     color: #000;
     cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
 .Signup {
@@ -61,4 +62,11 @@
     padding: 5px;
     border-radius: 4px;
     margin: 0;
+    transition: all .3s ease-in-out
+}
+
+.Signup:hover {
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
 }

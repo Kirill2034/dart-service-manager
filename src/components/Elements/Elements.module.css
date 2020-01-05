@@ -55,6 +55,12 @@
     display: flex;
     align-items: center;
     justify-content: center;  
+    transition: all .3s ease-in-out;
+}
+
+.Buy__now:hover {
+    color: #061e37;
+    background-color: #fff;
 }
 
 .Try__for__free {
@@ -71,4 +77,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease-in-out;
+}
+
+.Try__for__free:hover {
+    color: #fff;
+    background-color: #061e37;
 }
